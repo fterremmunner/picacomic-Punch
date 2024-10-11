@@ -73,7 +73,7 @@ namespace picacomic
             }
             else
             {
-                throw new Exception("签到失败");
+                throw new Exception("签到失败!");
             }
         }
 
