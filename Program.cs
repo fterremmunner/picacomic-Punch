@@ -26,6 +26,7 @@ namespace picacomic
                 if (!string.IsNullOrEmpty(item))
                 {
                     string[] user_pass = item.Split(',');
+                    Log($"账号：{user_pass[0]}，密码：{user_pass[1]}");
                     if (user_pass.Length == 2)
                     {
                         Accounts.Add(new Account
